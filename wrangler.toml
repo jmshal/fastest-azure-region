@@ -1,0 +1,6 @@
+name = "fastest-azure-region"
+type = "webpack"
+route = "fastest-azure-region.jacob.dev/*"
+zone_id = "ccc8f0ec94f11d938ba9cf0fc2aff0b4"
+account_id = "744cb9e630e4a6453ba360609b116fc3"
+workers_dev = true

@@ -1,0 +1,425 @@
+[
+  {
+    "group": "US",
+    "id": "eastus",
+    "latitude": "37.3719",
+    "location": "Virginia",
+    "longitude": "-79.8164",
+    "name": "East US",
+    "pair": "westus"
+  },
+  {
+    "group": "US",
+    "id": "eastus2",
+    "latitude": "36.6681",
+    "location": "Virginia",
+    "longitude": "-78.3889",
+    "name": "East US 2",
+    "pair": "centralus"
+  },
+  {
+    "group": "US",
+    "id": "southcentralus",
+    "latitude": "29.4167",
+    "location": "Texas",
+    "longitude": "-98.5",
+    "name": "South Central US",
+    "pair": "northcentralus"
+  },
+  {
+    "group": "US",
+    "id": "westus2",
+    "latitude": "47.233",
+    "location": "Washington",
+    "longitude": "-119.852",
+    "name": "West US 2",
+    "pair": "westcentralus"
+  },
+  {
+    "group": "US",
+    "id": "westus3",
+    "latitude": "33.448376",
+    "location": "Phoenix",
+    "longitude": "-112.074036",
+    "name": "West US 3",
+    "pair": "eastus"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "australiaeast",
+    "latitude": "-33.86",
+    "location": "New South Wales",
+    "longitude": "151.2094",
+    "name": "Australia East",
+    "pair": "australiasoutheast"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "southeastasia",
+    "latitude": "1.283",
+    "location": "Singapore",
+    "longitude": "103.833",
+    "name": "Southeast Asia",
+    "pair": "eastasia"
+  },
+  {
+    "group": "Europe",
+    "id": "northeurope",
+    "latitude": "53.3478",
+    "location": "Ireland",
+    "longitude": "-6.2597",
+    "name": "North Europe",
+    "pair": "westeurope"
+  },
+  {
+    "group": "Europe",
+    "id": "swedencentral",
+    "latitude": "60.67488",
+    "location": "Gävle",
+    "longitude": "17.14127",
+    "name": "Sweden Central",
+    "pair": "swedensouth"
+  },
+  {
+    "group": "Europe",
+    "id": "uksouth",
+    "latitude": "50.941",
+    "location": "London",
+    "longitude": "-0.799",
+    "name": "UK South",
+    "pair": "ukwest"
+  },
+  {
+    "group": "Europe",
+    "id": "westeurope",
+    "latitude": "52.3667",
+    "location": "Netherlands",
+    "longitude": "4.9",
+    "name": "West Europe",
+    "pair": "northeurope"
+  },
+  {
+    "group": "US",
+    "id": "centralus",
+    "latitude": "41.5908",
+    "location": "Iowa",
+    "longitude": "-93.6208",
+    "name": "Central US",
+    "pair": "eastus2"
+  },
+  {
+    "group": "US",
+    "id": "northcentralus",
+    "latitude": "41.8819",
+    "location": "Illinois",
+    "longitude": "-87.6278",
+    "name": "North Central US",
+    "pair": "southcentralus"
+  },
+  {
+    "group": "US",
+    "id": "westus",
+    "latitude": "37.783",
+    "location": "California",
+    "longitude": "-122.417",
+    "name": "West US",
+    "pair": "eastus"
+  },
+  {
+    "group": "Africa",
+    "id": "southafricanorth",
+    "latitude": "-25.731340",
+    "location": "Johannesburg",
+    "longitude": "28.218370",
+    "name": "South Africa North",
+    "pair": "southafricawest"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "centralindia",
+    "latitude": "18.5822",
+    "location": "Pune",
+    "longitude": "73.9197",
+    "name": "Central India",
+    "pair": "southindia"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "eastasia",
+    "latitude": "22.267",
+    "location": "Hong Kong",
+    "longitude": "114.188",
+    "name": "East Asia",
+    "pair": "southeastasia"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "japaneast",
+    "latitude": "35.68",
+    "location": "Tokyo, Saitama",
+    "longitude": "139.77",
+    "name": "Japan East",
+    "pair": "japanwest"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "jioindiawest",
+    "latitude": "22.470701",
+    "location": "Jamnagar",
+    "longitude": "70.05773",
+    "name": "Jio India West",
+    "pair": "jioindiacentral"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "koreacentral",
+    "latitude": "37.5665",
+    "location": "Seoul",
+    "longitude": "126.9780",
+    "name": "Korea Central",
+    "pair": "koreasouth"
+  },
+  {
+    "group": "Canada",
+    "id": "canadacentral",
+    "latitude": "43.653",
+    "location": "Toronto",
+    "longitude": "-79.383",
+    "name": "Canada Central",
+    "pair": "canadaeast"
+  },
+  {
+    "group": "Europe",
+    "id": "francecentral",
+    "latitude": "46.3772",
+    "location": "Paris",
+    "longitude": "2.3730",
+    "name": "France Central",
+    "pair": "francesouth"
+  },
+  {
+    "group": "Europe",
+    "id": "germanywestcentral",
+    "latitude": "50.110924",
+    "location": "Frankfurt",
+    "longitude": "8.682127",
+    "name": "Germany West Central",
+    "pair": "germanynorth"
+  },
+  {
+    "group": "Europe",
+    "id": "norwayeast",
+    "latitude": "59.913868",
+    "location": "Norway",
+    "longitude": "10.752245",
+    "name": "Norway East",
+    "pair": "norwaywest"
+  },
+  {
+    "group": "Europe",
+    "id": "switzerlandnorth",
+    "latitude": "47.451542",
+    "location": "Zurich",
+    "longitude": "8.564572",
+    "name": "Switzerland North",
+    "pair": "switzerlandwest"
+  },
+  {
+    "group": "Middle East",
+    "id": "uaenorth",
+    "latitude": "25.266666",
+    "location": "Dubai",
+    "longitude": "55.316666",
+    "name": "UAE North",
+    "pair": "uaecentral"
+  },
+  {
+    "group": "South America",
+    "id": "brazilsouth",
+    "latitude": "-23.55",
+    "location": "Sao Paulo State",
+    "longitude": "-46.633",
+    "name": "Brazil South",
+    "pair": "southcentralus"
+  },
+  {
+    "group": "US",
+    "id": "centraluseuap",
+    "latitude": "41.5908",
+    "location": null,
+    "longitude": "-93.6208",
+    "name": "Central US EUAP",
+    "pair": "eastus2euap"
+  },
+  {
+    "group": "US",
+    "id": "eastus2euap",
+    "latitude": "36.6681",
+    "location": null,
+    "longitude": "-78.3889",
+    "name": "East US 2 EUAP",
+    "pair": "centraluseuap"
+  },
+  {
+    "group": "US",
+    "id": "westcentralus",
+    "latitude": "40.890",
+    "location": "Wyoming",
+    "longitude": "-110.234",
+    "name": "West Central US",
+    "pair": "westus2"
+  },
+  {
+    "group": "Africa",
+    "id": "southafricawest",
+    "latitude": "-34.075691",
+    "location": "Cape Town",
+    "longitude": "18.843266",
+    "name": "South Africa West",
+    "pair": "southafricanorth"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "australiacentral",
+    "latitude": "-35.3075",
+    "location": "Canberra",
+    "longitude": "149.1244",
+    "name": "Australia Central",
+    "pair": "australiacentral"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "australiacentral2",
+    "latitude": "-35.3075",
+    "location": "Canberra",
+    "longitude": "149.1244",
+    "name": "Australia Central 2",
+    "pair": "australiacentral2"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "australiasoutheast",
+    "latitude": "-37.8136",
+    "location": "Victoria",
+    "longitude": "144.9631",
+    "name": "Australia Southeast",
+    "pair": "australiaeast"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "japanwest",
+    "latitude": "34.6939",
+    "location": "Osaka",
+    "longitude": "135.5022",
+    "name": "Japan West",
+    "pair": "japaneast"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "jioindiacentral",
+    "latitude": "21.146633",
+    "location": "Nagpur",
+    "longitude": "79.08886",
+    "name": "Jio India Central",
+    "pair": "jioindiawest"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "koreasouth",
+    "latitude": "35.1796",
+    "location": "Busan",
+    "longitude": "129.0756",
+    "name": "Korea South",
+    "pair": "koreacentral"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "southindia",
+    "latitude": "12.9822",
+    "location": "Chennai",
+    "longitude": "80.1636",
+    "name": "South India",
+    "pair": "centralindia"
+  },
+  {
+    "group": "Asia Pacific",
+    "id": "westindia",
+    "latitude": "19.088",
+    "location": "Mumbai",
+    "longitude": "72.868",
+    "name": "West India",
+    "pair": "southindia"
+  },
+  {
+    "group": "Canada",
+    "id": "canadaeast",
+    "latitude": "46.817",
+    "location": "Quebec",
+    "longitude": "-71.217",
+    "name": "Canada East",
+    "pair": "canadacentral"
+  },
+  {
+    "group": "Europe",
+    "id": "francesouth",
+    "latitude": "43.8345",
+    "location": "Marseille",
+    "longitude": "2.1972",
+    "name": "France South",
+    "pair": "francecentral"
+  },
+  {
+    "group": "Europe",
+    "id": "germanynorth",
+    "latitude": "53.073635",
+    "location": "Berlin",
+    "longitude": "8.806422",
+    "name": "Germany North",
+    "pair": "germanywestcentral"
+  },
+  {
+    "group": "Europe",
+    "id": "norwaywest",
+    "latitude": "58.969975",
+    "location": "Norway",
+    "longitude": "5.733107",
+    "name": "Norway West",
+    "pair": "norwayeast"
+  },
+  {
+    "group": "Europe",
+    "id": "switzerlandwest",
+    "latitude": "46.204391",
+    "location": "Geneva",
+    "longitude": "6.143158",
+    "name": "Switzerland West",
+    "pair": "switzerlandnorth"
+  },
+  {
+    "group": "Europe",
+    "id": "ukwest",
+    "latitude": "53.427",
+    "location": "Cardiff",
+    "longitude": "-3.084",
+    "name": "UK West",
+    "pair": "uksouth"
+  },
+  {
+    "group": "Middle East",
+    "id": "uaecentral",
+    "latitude": "24.466667",
+    "location": "Abu Dhabi",
+    "longitude": "54.366669",
+    "name": "UAE Central",
+    "pair": "uaenorth"
+  },
+  {
+    "group": "South America",
+    "id": "brazilsoutheast",
+    "latitude": "-22.90278",
+    "location": "Rio",
+    "longitude": "-43.2075",
+    "name": "Brazil Southeast",
+    "pair": "brazilsouth"
+  }
+]
