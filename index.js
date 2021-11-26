@@ -19,13 +19,21 @@ async function getRegionsLatencies(regions) {
   const results = [];
 
   await Promise.all(regions.map(async (region) => {
-    const storageAccount = storageAccounts.find(account => account.id === region);
+    /** @type {any} */
+    let storageAccount = storageAccounts.find(account => account.id === region);
+    if (!storageAccount) {
+      const secondaryStorageAccount = storageAccounts.find(account => account.secondary.id === region);
+      if (secondaryStorageAccount) {
+        storageAccount = secondaryStorageAccount.secondary;
+      }
+    }
     const startTime = Date.now();
     try {
       await fetch(storageAccount.url);
       results.push({
         id: region,
         latency: Date.now() - startTime,
+        // isSecondary: !('secondary' in storageAccount),
       });
     } catch {
       // noop
@@ -77,9 +85,10 @@ async function handleRequest(request) {
       group: region.group,
       name: region.name,
       location: region.location,
-      ...result,
+      distance: Math.floor(haversineDistance(region, request.cf) / 1000),
+      latency: result.latency,
     };
-  });
+  }).sort((a, b) => a.latency - b.latency);
 
   return new Response(JSON.stringify(response, null, '  '), {
     headers: {
